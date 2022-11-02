@@ -1,0 +1,404 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+.custom-btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+.btn-14 {
+    color: #fff;
+    background-color: #03b300;
+    padding: 11px 20px;
+    border-radius: 32px;
+    border: none;
+  }
+  
+  .btn-14:hover {
+    color: #000;
+    background: #71ff6f;
+    border: none;
+    padding: 13px 41px;
+    transition: all 0.3s ease;
+  }
+
+  .carousel-indicators button {
+    background-color: #03b300 !important;
+}
+p {
+    color: #8f8f8f;
+    line-height: 2;
+}
+.title {
+    color: #4AB421;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .navbar-nav{
+        .nav-link{
+            color: #000;
+            margin: 0 20px;
+        }
+        a:hover{
+            color: #03b300;
+            border-bottom: 3px solid #03b300;
+        }
+    }
+}
+.good_food{
+    background-image: url("../image/bann1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0;
+    .slide.active {
+    background-color: #2ec02c !important;
+    }
+    .food {
+        padding: 11% 0;
+        p{
+            text-shadow: none;
+        }
+        h2 span {
+            position: relative;
+            top: 20px;
+            display: inline-block;
+            animation: bounce 0.3s ease infinite alternate;
+            font-size: 108px;
+            color: #03b300;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+              0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+              0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+          }
+          
+          h2 span:nth-child(2) {
+            animation-delay: 0.1s;
+          }
+          
+          h2 span:nth-child(3) {
+            animation-delay: 0.2s;
+          }
+          
+          h2 span:nth-child(4) {
+            animation-delay: 0.3s;
+          }
+          
+          h2 span:nth-child(5) {
+            animation-delay: 0.4s;
+          }
+          
+          h2 span:nth-child(6) {
+            animation-delay: 0.5s;
+          }
+          
+          h2 span:nth-child(7) {
+            animation-delay: 0.6s;
+          }
+          
+          h2 span:nth-child(8) {
+            animation-delay: 0.2s;
+          }
+          
+          h2 span:nth-child(9) {
+            animation-delay: 0.3s;
+          }
+          
+          h2 span:nth-child(10) {
+            animation-delay: 0.4s;
+          }
+          
+          h2 span:nth-child(11) {
+            animation-delay: 0.5s;
+          }
+          
+          h2 span:nth-child(12) {
+            animation-delay: 0.6s;
+          }
+          
+          h2 span:nth-child(13) {
+            animation-delay: 0.7s;
+          }
+          
+          h2 span:nth-child(14) {
+            animation-delay: 0.8s;
+          }
+          
+          @keyframes bounce {
+            100% {
+              top: -20px;
+              text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+                0 50px 25px rgba(0, 0, 0, 0.2);
+            }
+          }
+              
+    }
+}
+
+.deliver{
+    padding: 3% 0;
+   .health_food{
+    margin: 27px 0;
+   }
+   canvas.particles-js-canvas-el {
+    opacity: 0.5 !important;
+    position: absolute;
+    top:50%;
+    z-index: -2;
+}
+
+}
+.feature{
+    .feature_detail{
+        padding: 7px;
+        border-radius: 12px;
+        background: #fff;
+        span {
+            font-size: 12px;
+            color: #626060;
+        }
+        .fa {
+            font-size: 13px;
+            padding: 5px 0;
+            color: #6c6c67;
+        }
+        p{
+            border-bottom: 1px solid #ccc;
+        }
+    }
+    .box {
+        width: 31%;
+        position: relative;
+        bottom: 18%;
+        left: 11%;
+        
+    }
+    .box1 {
+        width: 67%;
+        position: relative;
+        bottom: 15%;
+        left: 11%;
+        
+    }
+    .box2 {
+        width: 67%;
+        position: relative;
+        bottom: 15%;
+        left: 11%;
+        
+    }
+    .box3 {
+        width: 67%;
+        position: relative;
+        bottom: 26%;
+        left: 11%;
+        
+    }
+    .box4 {
+        width: 67%;
+        position: relative;
+        bottom: 26%;
+        left: 11%;
+        
+    }
+}
+
+.works{
+    padding: 24px 0;
+    .working{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 28px 81px;
+        margin: 12px 0;
+        text-align: center;
+        border-top-right-radius: 165px;
+        border-top-left-radius: 165px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        img{
+            width: 50%;
+            margin: 5px 0;
+        }
+        h6{
+            margin: 14px 0;
+            color: #03b300;
+            font-size: 21px;
+        }
+        p{
+            margin: 10px 0;
+        }
+    }
+    .working:hover {
+        background: #d4f3d4;
+    }
+}
+
+.silver_form{
+    background-image: url("../image/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6%;
+
+    svg {
+        height: 100%;
+        z-index: -2;
+        position: absolute;
+        top: 2px;
+        right: -117px;
+      }
+      
+      circle {
+        fill: none;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke: currentcolor;
+        color: #03B300;
+        stroke-dasharray: 260,0,1,0,1,0,1,0,10, 1, 10, 1, 10, 1, 10, 1, 10, 10, 1, 10, 1, 10, 1, 10, 10, 1;
+        animation: dostuff 18s ease infinite
+      }
+      
+      @keyframes dostuff {
+        50% {
+          stroke-dasharray: 10, 1, 10, 1, 10, 1,10,1,10,1,10,1,10,10, 10, 1, 20, 120, 1, 30, 1, 30, 1, 10, 30, 1;
+      stroke-opacity:.5; }
+      }
+      
+      @keyframes spin {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      g {
+        animation: spin 20s linear infinite;
+        transform-origin: 50% 50%;
+        
+        &:nth-child(even){animation-direction: reverse}
+        
+        &:nth-child(1n) {
+          animation-delay: -1s;
+        }
+        &:nth-child(2n) {
+          animation-delay: -2s;
+        }
+        &:nth-child(3n) {
+          animation-delay: -3s;
+        }
+        &:nth-child(4n) {
+          animation-delay: -4s;
+        }
+        &:nth-child(5n) {
+          animation-delay: -5s;
+        }
+        &:nth-child(6n) {
+          animation-delay: -6s;
+        }
+        &:nth-child(7n) {
+          animation-delay: -7s;
+        }
+        &:nth-child(1n) circle {
+          animation-delay: -1.5s;
+        }
+        &:nth-child(2n) circle {
+          animation-delay: -2.5s;
+        }
+        &:nth-child(3n) circle {
+          animation-delay: -3.5s;
+        }
+        &:nth-child(4n) circle {
+          animation-delay: -4.5s;
+        }
+        &:nth-child(5n) circle {
+          animation-delay: -4.5s;
+        }
+        &:nth-child(6n) circle {
+          animation-delay: -5.5s;
+        }
+        &:nth-child(7n) circle {
+          animation-delay: -6.5s;
+        }
+        &:nth-child(8n) circle {
+          animation-delay: -7.5s;
+        }
+        &:nth-child(9n) circle {
+          animation-delay: -8.5s;
+        }
+        &:nth-child(10n) circle {
+          animation-delay: -9.5s;
+        }
+        &:last-child circle {
+          fill: #c00;
+          stroke: none;
+        }
+      }
+    .silver{
+        margin-top: 27%;
+        color: #fff;
+        h3 {
+            font-size: 59px;
+        }
+        p{
+            color: #fff;
+        }
+        .btn-stroke {
+            color: #03ab02;
+            border: 2px solid;
+            margin: 0 17px;
+            border-radius: 30px;
+        }
+    }   
+}
+
+.food_lover{
+    padding: 2% 0;
+    p{
+        padding: 0 19%;
+    }
+    .slide_content{
+        text-align: center;
+        background: #ffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 19px 13px;
+        margin: 42px 0 !important;
+        span {
+            color: #03b300;
+        }
+    }
+}
+
+.footer{
+    background: hsl(0, 0%, 14%);
+    padding-top: 3%;
+    color: #fff;
+    p {
+        margin: 0;
+    }
+    .nav-list {
+        padding-inline-start: 0;
+        list-style: none;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        span {
+            font-size: 14px;
+            font-weight: 200;
+        }
+        dt {
+            color: #3bcb2d;
+        }
+    }
+}
